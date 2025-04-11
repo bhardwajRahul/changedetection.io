@@ -89,7 +89,7 @@ _Need an actual Chrome runner with Javascript support? We support fetching via W
 #### Key Features
 
 - Lots of trigger filters, such as "Trigger on text", "Remove text by selector", "Ignore text", "Extract text", also using regular-expressions!
-- Target elements with xPath(1.0) and CSS Selectors, Easily monitor complex JSON with JSONPath or jq
+- Target elements with xPath 1 and xPath 2, CSS Selectors, Easily monitor complex JSON with JSONPath or jq
 - Switch between fast non-JS and Chrome JS based "fetchers"
 - Track changes in PDF files (Monitor text changed in the PDF, Also monitor PDF filesize and checksums)
 - Easily specify how often a site should be checked
@@ -104,6 +104,12 @@ We [recommend and use Bright Data](https://brightdata.grsm.io/n0r16zf7eivq) glob
 [Oxylabs](https://oxylabs.go2cloud.org/SH2d) is also an excellent proxy provider and well worth using, they offer Residental, ISP, Rotating and many other proxy types to suit your project. 
 
 Please :star: star :star: this project and help it grow! https://github.com/dgtlmoon/changedetection.io/
+
+### Conditional web page changes
+
+Easily [configure conditional actions](https://changedetection.io/tutorial/conditional-actions-web-page-changes), for example, only trigger when a price is above or below a preset amount, or [when a web page includes (or does not include) a keyword](https://changedetection.io/tutorial/how-monitor-keywords-any-website)
+
+<img src="./docs/web-page-change-conditions.png" style="max-width:80%;" alt="Conditional web page changes"  title="Conditional web page changes"  />
 
 ### Schedule web page watches in any timezone, limit by day of week and time.
 
